@@ -1,7 +1,7 @@
 pipeline { 
     agent any
     environment { 
-        registry = "chetangautamm/repo" 
+        registry = "nish11/test-jenkins" 
         registryCredential = '58881f31-29bb-48a8-9da9-fc254654146d' 
         dockerImage = '' 
     }
